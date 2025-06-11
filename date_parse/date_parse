@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Display current date in stdout
+date +'%D'
+
+current_date=$(date +%D)
+echo "The current date is $current_date"
