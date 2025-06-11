@@ -3,5 +3,6 @@
 #Display current date in stdout
 date +'%D'
 
+#The use of $(....) send the stdout of date to the current_date variable
 current_date=$(date +%D)
 echo "The current date is $current_date"
